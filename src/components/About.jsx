@@ -9,7 +9,7 @@ export function About() {
         <div className="lg:col-span-6 relative">
           <div className="rounded-xl overflow-hidden shadow-lg border border-zinc-200">
             <img
-              src="./public/chuttersnap-Hv3i-nJNWcI-unsplash.jpg"
+              src="/chuttersnap-Hv3i-nJNWcI-unsplash.jpg"
               alt="Fábrica de Alumínio"
               className="w-full h-[440px] object-cover"
             />
