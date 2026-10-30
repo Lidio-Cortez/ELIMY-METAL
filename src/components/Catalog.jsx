@@ -6,28 +6,28 @@ const products = [
     title: 'Panela Clássica',
     desc: 'Alumínio reforçado · 24 cm',
     price: '12.500 Kz',
-    image: './src/assets/cooker-king-ZhmrM74A2mw-unsplash.jpg',
+    image: './public/cooker-king-ZhmrM74A2mw-unsplash.jpg',
   },
   {
     category: 'PANELAS',
     title: 'Conjunto Familiar',
     desc: 'Conjunto de 3 peças',
     price: '38.900 Kz',
-    image: './src/assets/cooker-king-mnIZdwhVhII-unsplash.jpg',
+    image: './public/cooker-king-mnIZdwhVhII-unsplash.jpg',
   },
   {
     category: 'FORMAS',
     title: 'Forma Redonda',
     desc: 'Acabamento liso · 26 cm',
     price: '6.800 Kz',
-    image: './src/assets/marine-le-gac-YnVVKwTHI3Q-unsplash.jpg',
+    image: './public/marine-le-gac-YnVVKwTHI3Q-unsplash.jpg',
   },
   {
     category: 'CANECAS',
     title: 'Caneca Tradicional',
     desc: 'Leve e resistente · 500 ml',
     price: '2.400 Kz',
-    image: './src/assets/mario-gogh-HVVqiaPDR6g-unsplash.jpg',
+    image: './public/mario-gogh-HVVqiaPDR6g-unsplash.jpg',
   },
 ];
 
@@ -106,8 +106,8 @@ export function Catalog() {
                     {item.price}
                   </span>
                 </div>
-                <button className="w-9 h-9 bg-zinc-900 hover:bg-[#10b981] text-white rounded-full flex items-center justify-center transition-colors">
-                  →
+                <button className="w-9 h-9 bg-zinc-900 hover:bg-[#10b981] text-white rounded-full flex items-center justify-center transition-colors cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
                 </button>
               </div>
             </div>
