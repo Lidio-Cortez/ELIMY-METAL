@@ -6,28 +6,28 @@ const products = [
     title: 'Panela Clássica',
     desc: 'Alumínio reforçado · 24 cm',
     price: '12.500 Kz',
-    image: './public/cooker-king-ZhmrM74A2mw-unsplash.jpg',
+    image: '/cooker-king-ZhmrM74A2mw-unsplash.jpg',
   },
   {
     category: 'PANELAS',
     title: 'Conjunto Familiar',
     desc: 'Conjunto de 3 peças',
     price: '38.900 Kz',
-    image: './public/cooker-king-mnIZdwhVhII-unsplash.jpg',
+    image: '/cooker-king-mnIZdwhVhII-unsplash.jpg',
   },
   {
     category: 'FORMAS',
     title: 'Forma Redonda',
     desc: 'Acabamento liso · 26 cm',
     price: '6.800 Kz',
-    image: './public/marine-le-gac-YnVVKwTHI3Q-unsplash.jpg',
+    image: '/marine-le-gac-YnVVKwTHI3Q-unsplash.jpg',
   },
   {
     category: 'CANECAS',
     title: 'Caneca Tradicional',
     desc: 'Leve e resistente · 500 ml',
     price: '2.400 Kz',
-    image: './public/mario-gogh-HVVqiaPDR6g-unsplash.jpg',
+    image: '/mario-gogh-HVVqiaPDR6g-unsplash.jpg',
   },
 ];
 

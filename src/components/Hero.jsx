@@ -59,7 +59,7 @@ export function Hero() {
         <div className="lg:col-span-6 relative">
           <div className="rounded-xl overflow-hidden border border-zinc-800 relative bg-zinc-900">
             <img 
-              src="./public/cooker-king-AOVtEuU9UGc-unsplash.jpg"
+              src="/cooker-king-AOVtEuU9UGc-unsplash.jpg"
               alt="Conjunto de Panelas ELIMY METAL"
               className="w-full h-[460px] object-cover"
             />
